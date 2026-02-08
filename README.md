@@ -4,7 +4,7 @@
 <h1>🚀Tecnologias Utilizadas</h1>
 <p>-<strong>HTML5</strong></p>
 <p>-<strong>CSS3</strong></p>
-<p>-<strong><JavaScript</strong></p>
+<p>-<strong>JavaScript</strong></p>
 <p>-<strong>TailwindCss</strong></p>
 
 <h1>Características</h1>
