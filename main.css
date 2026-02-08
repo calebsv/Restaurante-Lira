@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(208, 255, 0);
+  box-shadow: 0 0 25px rgb(142, 163, 48);
+}
+
+.shadow__btn:hover {
+  box-shadow:
+    0 0 5px rgb(178, 212, 23),
+    0 0 25px rgb(179, 209, 42),
+    0 0 50px rgb(210, 223, 33),
+    0 0 100px rgb(205, 240, 10);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+.btn {
+  background: transparent;
+  border: 2px solid yellow;
+}
+.btn:hover{
+  box-shadow: 
+  0 0 5px rgb(178, 212, 23),
+  0 0 25px rgb(179, 209, 42), 
+  0 0 50px rgb(210, 223, 33),
+  0 0 100px rgb(205, 240, 10);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+nav a {
+    text-decoration: none;
+    position: relative;
+}
+nav a::after {
+    content: " ";
+    width:0%;
+    height: 2px;
+    background-color: yellow;
+    position:absolute;
+    bottom:0;
+    left:0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after {
+    width: 100%;
+}
+.card{
+  position:relative;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.reveal {
+  opacity:0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.reveal.active {
+  opacity:1;
+  transform: translateY(0);
+}
